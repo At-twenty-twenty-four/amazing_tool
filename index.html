@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazing_tool</title>
+    <style>
+        /* Styling the image */
+        img {
+            width: 100%;
+            max-width: 600px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Click the image below to watch the educational video!</h2>
+    
+    <!-- Image to be clicked for redirection -->
+    <img src="one.png" alt="Educational Video" id="image" onclick="redirectToVideo()">
+
+    <script>
+        // Function to redirect to the video when image is clicked
+        function redirectToVideo() {
+            // Replace this URL with the actual video link you want to redirect to
+            window.location.href = "https://www.youtube.com/watch?v=U_VIDEO_ID";
+        }
+    </script>
+
+</body>
+</html>
